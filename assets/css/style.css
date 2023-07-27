@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Ysabeau+SC:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+/*headings and logo*/
+h1,
+h2 {
+    font-family: Ysabeau SC, sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+}
+
+#logo {
+    font-size: 500%;
+    font-family: Ysabeau SC, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.banner {
+    font-size: 150%;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    text-align: center;
+
+}
+
+#cover-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/pexels-jess-loiterton-4321194.jpg') no-repeat center center;
+}

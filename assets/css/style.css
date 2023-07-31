@@ -90,3 +90,121 @@ h2 {
 
     position: relative;
 }
+
+/* why join Breathe? */
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+#section1 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.peace {
+    position: absolute;
+    text-align: left;
+    margin-left: 310px;
+    margin-top: 60px;
+}
+
+#section1-image {
+    background: url('../images/pexels-oluremi-adebayo-2908175.jpg') no-repeat center center;
+    background-size: 200%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+
+#circle-container1 {
+    width: 220px;
+    height: 220px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#section2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.reminders {
+    position: absolute;
+    text-align: left;
+    margin-left: 310px;
+    margin-top: 60px;
+}
+
+#section2-image {
+    background: url('../images/pexels-brett-jordan-7508024.jpg') no-repeat center center;
+    background-size: 200%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+
+#circle-container2 {
+    width: 220px;
+    height: 220px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50px;
+}
+
+#section3 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100%;
+    position: relative;
+}
+
+.practices {
+    position: absolute;
+    margin-left: 310px;
+    margin-top: 60px;
+}
+
+#section3-image {
+    background: url('../images/pexels-elina-fairytale-3822906.jpg') no-repeat center center;
+    background-size: 200%;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    margin-left: 60px;
+    margin-top: 10px;
+
+}
+
+#circle-container3 {
+    width: 220px;
+    height: 220px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 50px;
+}

@@ -25,7 +25,13 @@ h2 {
     font-family: Ysabeau SC, sans-serif;
     text-transform: uppercase;
     text-align: center;
+    position: relative;
 
+}
+
+.banner a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .banner {
@@ -34,11 +40,15 @@ h2 {
     font-weight: 300;
     color: #3a3a3a;
     text-align: center;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+    padding-top: 50px;
 
 }
 
 #cover-image {
-    height: 600px;
+    height: 300px;
     width: 100%;
     background: url('../images/pexels-jess-loiterton-4321194.jpg') no-repeat center center;
 }

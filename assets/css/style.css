@@ -52,7 +52,7 @@ h2 {
 }
 
 #logo {
-    font-size: 500%;
+    font-size: 600%;
     font-family: Ysabeau SC, sans-serif;
     text-transform: uppercase;
     text-align: center;
@@ -96,12 +96,13 @@ h2 {
 #welcome {
     text-align: center;
     margin: 20px;
-    font-size: 280%;
+    font-size: 225%;
 }
 
 #section1 {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    font-size: 125%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
     position: relative;
 }
@@ -137,6 +138,7 @@ h2 {
 }
 
 #section2 {
+    font-size: 125%;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;
@@ -174,6 +176,7 @@ h2 {
 }
 
 #section3 {
+    font-size: 125%;
     padding-top: 30px;
     padding-bottom: 30px;
     width: 100%;

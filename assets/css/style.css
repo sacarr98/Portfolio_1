@@ -344,13 +344,55 @@ footer {
     height: 400px;
 
 }
+
+/* body page */
+
+#logo-body {
+    font-size: 600%;
+    font-family: Ysabeau SC, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+
 }
 
+.banner-body a {
+    text-decoration: none;
+    color: inherit;
+}
 
-/*.left-about-heading {
-    width: 40%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 60px;
-}*/
+.banner-body {
+    font-size: 150%;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+    text-align: center;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+
+}
+
+#cover-image-body {
+    height: 300px;
+    width: 100%;
+    background: url('../images/pexels-elina-fairytale-3822672.jpg') no-repeat center center;
+    background-size: 100%;
+}
+
+#banner-outer-body {
+    height: 320px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#yoga-routine {
+    padding-top: 30px;
+}
+
+.yoga-video {
+    text-align: center;
+
+}

@@ -296,3 +296,50 @@ footer {
 
     position: relative;
 }
+
+/* recipe */
+
+#recipe-instruction {
+    padding-top: 30px;
+    width: 50%;
+    float: right;
+    font-size: 150%;
+}
+
+.ingredients {
+    width: 100%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+
+.steps {
+    width: 80%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 30px;
+}
+
+/*recipe image */
+
+#recipe-image {
+    padding-top: 30px;
+    width: 33%;
+    height: 100px;
+    float: left;
+    background: url('../images/pexels-shvets-production-7195133.jpg') no-repeat center center;
+    clear: both;
+    margin-bottom: 60px;
+
+}
+
+/*.left-about-heading {
+    width: 40%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 60px;
+}*/

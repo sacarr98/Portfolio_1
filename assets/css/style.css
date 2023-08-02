@@ -391,6 +391,24 @@ footer {
     position: relative;
 }
 
+/* body page content */
+
+.equipment {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+    margin-left: 30px;
+    font-size: 150%
+}
+
+.positions {
+    padding-top: 30px;
+    width: 30%;
+    float: right;
+    margin-right: 30px;
+    font-size: 150%
+}
+
 #yoga-routine {
     padding-top: 30px;
 }
@@ -413,7 +431,6 @@ footer {
     clear: left;
     background: url('../images/pexels-marcus-aurelius-6787218.jpg') no-repeat center center;
     background-size: 100%;
-    /*background-position: center; */
     height: 900px;
     width: 100%;
 }

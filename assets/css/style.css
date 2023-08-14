@@ -565,7 +565,7 @@ footer {
 }
 
 .text-input:hover {
-    border-color: #f16c6b;
+    border-color: rgba(115, 151, 234, 0.8);
 }
 
 .join-button {
@@ -574,8 +574,9 @@ footer {
     padding: 15px 32px;
     text-align: center;
     font-size: 100%;
-    background-color: #f16c6b;
-    color: #fafafa;
+    background-color: rgb(233, 230, 230);
+    color: black;
+    font-family: Ysabeau SC, sans-serif;
     display: block;
 }
 
@@ -647,6 +648,8 @@ footer {
 
 /*For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
+
+    /*home page*/
     #banner-outer {
         font-size: 75%;
     }
@@ -723,4 +726,11 @@ footer {
     footer {
         height: 50px;
     }
+
+    /*body page*/
+
+    /*mind page*/
+
+    /*soul*/
+
 }

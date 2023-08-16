@@ -536,39 +536,13 @@ footer {
     font-size: 150%;
 }
 
-/*single column table */
 #image-table-small {
     width: 100%;
     height: 600px;
     border-width: thick;
     line-height: 40px;
     list-style-position: inside;
-    padding: 20px;
-}
-
-#image-table-small>p {
-    padding: 50px;
-}
-
-.doodles-small {
-    background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
-    width: 100%;
-    background-size: 100%;
-    height: 100px;
-}
-
-.meditation-small {
-    background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
-    width: 100%;
-    background-size: 100%;
-    height: 200px;
-}
-
-.walk-small {
-    background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
-    width: 100%;
-    background-size: 100%;
-    height: 200px;
+    margin-left: 20px;
 }
 
 /* Subscribe */
@@ -694,30 +668,6 @@ footer {
         list-style-position: inside;
         padding: 20px;
     }
-
-    .doodles-small {
-        background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
-        width: 20%;
-        background-size: 100%;
-        height: 100px;
-    }
-
-    .meditation-small {
-        background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
-        width: 100%;
-        background-size: 100%;
-        height: 200px;
-    }
-
-    .walk-small {
-        background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
-        width: 100%;
-        background-size: 100%;
-        height: 200px;
-    }
-
-
-
 
     /*soul*/
 
@@ -907,29 +857,6 @@ footer {
         line-height: 40px;
         list-style-position: inside;
     }
-
-    .doodles-small {
-        background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
-        width: 20%;
-        background-size: 100%;
-        height: 100px;
-    }
-
-    .meditation-small {
-        background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
-        width: 100%;
-        background-size: 100%;
-        height: 200px;
-    }
-
-    .walk-small {
-        background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
-        width: 100%;
-        background-size: 100%;
-        height: 200px;
-    }
-
-
 
 
     /*soul*/

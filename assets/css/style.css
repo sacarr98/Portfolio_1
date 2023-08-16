@@ -478,6 +478,12 @@ footer {
     width: 100%;
     height: 600px;
     border-width: thick;
+    line-height: 40px;
+    list-style-position: inside;
+}
+
+#image-table>p {
+    padding: 50px;
 }
 
 .doodles {

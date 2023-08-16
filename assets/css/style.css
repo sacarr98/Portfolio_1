@@ -238,10 +238,12 @@ h2 {
 
 footer {
     height: 150px;
+    padding: 10px;
 }
 
 .social-networks {
     text-align: center;
+    float: center;
 }
 
 .social-networks>li {
@@ -303,6 +305,7 @@ footer {
 
 #recipe {
     padding: 10px;
+    margin: 10px;
     width: 100%;
     height: 100%;
 }
@@ -312,12 +315,13 @@ footer {
     width: 50%;
     float: right;
     font-size: 150%;
+    list-style-position: inside;
 }
 
 .ingredients {
     width: 100%;
     float: left;
-    line-height: 20px;
+    line-height: 40px;
     clear: both;
     margin-bottom: 30px;
 }
@@ -326,14 +330,14 @@ footer {
 .steps {
     width: 80%;
     float: left;
-    line-height: 20px;
+    line-height: 40px;
     clear: both;
 }
 
 /*recipe image */
 
 #recipe-image {
-    padding-top: 30px;
+    padding-top: 160px;
     padding-left: 30px;
     width: 40%;
     height: 100%;
@@ -532,6 +536,41 @@ footer {
     font-size: 150%;
 }
 
+/*single column table */
+#image-table-small {
+    width: 100%;
+    height: 600px;
+    border-width: thick;
+    line-height: 40px;
+    list-style-position: inside;
+    padding: 20px;
+}
+
+#image-table-small>p {
+    padding: 50px;
+}
+
+.doodles-small {
+    background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
+    width: 100%;
+    background-size: 100%;
+    height: 100px;
+}
+
+.meditation-small {
+    background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
+    width: 100%;
+    background-size: 100%;
+    height: 200px;
+}
+
+.walk-small {
+    background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
+    width: 100%;
+    background-size: 100%;
+    height: 200px;
+}
+
 /* Subscribe */
 
 #form-section-outer {
@@ -597,8 +636,9 @@ footer {
 
 /* media queries */
 /* for larger to medium screens size from 1200px wide and down */
-/*@media screen and (max-width: 1200px) {
-    #club-ethos {
+@media screen and (max-width: 1200px) {
+
+    /* #club-ethos {
         width: 65%;
         height: 1200px;
         margin: 0 auto;
@@ -632,12 +672,96 @@ footer {
 
     hr {
         display: none;
+    } */
+    /*mind*/
+    #image-table-small {
+        display: none;
     }
-} */
+
+}
 
 /* for medium screen sizes from 950px wide and down */
-/*@media screen and (max-width: 950px) {
-    #menu {
+@media screen and (max-width: 950px) {
+    #image-table {
+        display: none;
+    }
+
+    #image-table-small {
+        width: 100%;
+        height: 600px;
+        border-width: thick;
+        line-height: 40px;
+        list-style-position: inside;
+        padding: 20px;
+    }
+
+    .doodles-small {
+        background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
+        width: 20%;
+        background-size: 100%;
+        height: 100px;
+    }
+
+    .meditation-small {
+        background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
+        width: 100%;
+        background-size: 100%;
+        height: 200px;
+    }
+
+    .walk-small {
+        background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
+        width: 100%;
+        background-size: 100%;
+        height: 200px;
+    }
+
+
+
+
+    /*soul*/
+
+    #recipe-instruction {
+        width: 100%;
+        font-size: 150%;
+        list-style-position: inside;
+    }
+
+    .ingredients {
+        width: 100%;
+        float: left;
+        line-height: 40px;
+        clear: both;
+        margin-bottom: 30px;
+    }
+
+
+    .steps {
+        width: 100%;
+        float: left;
+        line-height: 40px;
+        clear: both;
+    }
+
+    /*recipe image */
+
+    #recipe-image {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #recipe-image-bg {
+        background: url('../images/pexels-alisha-mishra-1346347.jpg') no-repeat center center;
+        background-size: 75%;
+
+    }
+
+}
+
+/* #menu {
         clear: left;
         float: left;
         margin-left: 30px;
@@ -653,8 +777,8 @@ footer {
         width: 90%;
         height: 1200px;
         margin: 0 auto;
-    }
-} */
+    } */
+
 
 /*For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
@@ -739,8 +863,113 @@ footer {
 
     /*body page*/
 
+    .equipment {
+        padding-top: 30px;
+        width: 100%;
+        float: left;
+        margin-left: 30px;
+        font-size: 150%;
+        line-height: 40px;
+        list-style-position: inside;
+    }
+
+    .positions {
+        padding-top: 30px;
+        width: 100%;
+        float: left;
+        margin-left: 30px;
+        font-size: 150%;
+        line-height: 40px;
+        list-style-position: inside;
+    }
+
+    #yoga-routine {
+        padding-top: 30px;
+    }
+
+    .yoga-video {
+        text-align: center;
+
+    }
+
+
+
     /*mind page*/
 
+    #image-table {
+        display: none;
+    }
+
+    #image-table-small {
+        width: 100%;
+        height: 600px;
+        border-width: thick;
+        line-height: 40px;
+        list-style-position: inside;
+    }
+
+    .doodles-small {
+        background: url('../images/pexels-alena-koval-820673.jpg') no-repeat left center;
+        width: 20%;
+        background-size: 100%;
+        height: 100px;
+    }
+
+    .meditation-small {
+        background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
+        width: 100%;
+        background-size: 100%;
+        height: 200px;
+    }
+
+    .walk-small {
+        background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
+        width: 100%;
+        background-size: 100%;
+        height: 200px;
+    }
+
+
+
+
     /*soul*/
+
+    #recipe-instruction {
+        width: 100%;
+        font-size: 150%;
+        list-style-position: inside;
+    }
+
+    .ingredients {
+        width: 100%;
+        float: left;
+        line-height: 40px;
+        clear: both;
+        margin-bottom: 30px;
+    }
+
+
+    .steps {
+        width: 100%;
+        float: left;
+        line-height: 40px;
+        clear: both;
+    }
+
+    /*recipe image */
+
+    #recipe-image {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    #recipe-image-bg {
+        background: url('../images/pexels-alisha-mishra-1346347.jpg') no-repeat center center;
+        background-size: 75%;
+
+    }
 
 }

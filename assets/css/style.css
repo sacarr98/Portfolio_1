@@ -691,6 +691,99 @@ footer {
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
 
+    /*home page*/
+    #banner-outer {
+        font-size: 75%;
+    }
+
+    #welcome {
+        font-size: 150%;
+    }
+
+    #section1 {
+        font-size: 125%;
+        margin-left: 10px;
+        width: 90%;
+        margin-top: 25px;
+    }
+
+    #section1-image {
+        width: 150px;
+        height: 150px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    #circle-container1 {
+        width: 160px;
+        height: 160px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    .peace {
+        margin-left: 280px;
+        margin-top: 40px;
+    }
+
+    #section2 {
+        font-size: 125%;
+        margin-left: 10px;
+        width: 90%;
+        margin-top: 25px;
+    }
+
+    #section2-image {
+        width: 150px;
+        height: 150px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    #circle-container2 {
+        width: 160px;
+        height: 160px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    .reminders {
+        margin-left: 280px;
+        margin-top: 40px;
+    }
+
+    #section3 {
+        font-size: 125%;
+        margin-left: 10px;
+        width: 90%;
+        margin-top: 25px;
+        margin-bottom: 30px;
+        padding-bottom: 30px;
+    }
+
+    #section3-image {
+        width: 150px;
+        height: 150px;
+        margin-left: 45px;
+        margin-top: 30px;
+    }
+
+    #circle-container3 {
+        width: 160px;
+        height: 160px;
+        margin-left: 40px;
+        margin-top: 25px;
+    }
+
+    .practices {
+        margin-left: 280px;
+        margin-top: 40px;
+    }
+
+    footer {
+        height: 50px;
+    }
+
     /* mind */
     #image-table {
         display: none;
@@ -743,25 +836,6 @@ footer {
 
 }
 
-/* #menu {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-
-    .cover-text {
-        left: 0;
-    }
-
-    #welcome {
-        width: 90%;
-        height: 1200px;
-        margin: 0 auto;
-    } */
-
-
 /*For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
 
@@ -777,7 +851,7 @@ footer {
     #section1 {
         font-size: 100%;
         margin-left: 10px;
-        width: 80%;
+        width: 90%;
         margin-top: 25px;
     }
 
@@ -795,10 +869,15 @@ footer {
         margin-top: 25px;
     }
 
+    .peace {
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+
     #section2 {
         font-size: 100%;
         margin-left: 10px;
-        width: 80%;
+        width: 90%;
         margin-top: 25px;
     }
 
@@ -816,10 +895,15 @@ footer {
         margin-top: 25px;
     }
 
+    .reminders {
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+
     #section3 {
         font-size: 100%;
         margin-left: 10px;
-        width: 80%;
+        width: 90%;
         margin-top: 25px;
         margin-bottom: 30px;
         padding-bottom: 30px;
@@ -837,6 +921,11 @@ footer {
         height: 160px;
         margin-left: 40px;
         margin-top: 25px;
+    }
+
+    .practices {
+        margin-left: 40px;
+        margin-top: 200px;
     }
 
     footer {

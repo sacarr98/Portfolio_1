@@ -536,13 +536,78 @@ footer {
     font-size: 150%;
 }
 
-#image-table-small {
+/*mind for smaller screens*/
+
+#meditation-small {
+    padding-top: 20px;
+}
+
+#doodles-small {
+    font-size: 125%;
+    padding-top: 20px;
+    padding-bottom: 20px;
     width: 100%;
-    height: 600px;
-    border-width: thick;
-    line-height: 40px;
-    list-style-position: inside;
+}
+
+.doodles-image {
+    background: url('../images/pexels-alena-koval-820673.jpg') no-repeat center center;
+    background-size: 100%;
+    height: 200px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.doodles-text {
     margin-left: 20px;
+    margin-top: 100px;
+    width: 100%;
+    list-style-position: inside;
+}
+
+#meditation-small {
+    font-size: 125%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.meditation-image {
+    background: url('../images/pexels-ketut-subiyanto-4909325.jpg') no-repeat center center;
+    background-size: 100%;
+    height: 200px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.meditation-text {
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 100%;
+}
+
+#walk-small {
+    font-size: 125%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.walk-image {
+    background: url('../images/pexels-lachlan-ross-5967867.jpg') no-repeat center center;
+    background-size: 100%;
+    height: 200px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.walk-text {
+    margin-left: 10px;
+    margin-top: 60px;
+    width: 100%;
+    list-style-position: inside;
 }
 
 /* Subscribe */
@@ -610,64 +675,31 @@ footer {
 
 /* media queries */
 /* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 950px) {
 
-    /* #club-ethos {
-        width: 65%;
-        height: 1200px;
-        margin: 0 auto;
-    }
-
-    #welcome {
-        padding: 30px 0;
-        margin: 0;
-    }
-
-    #left-about,
-    #right-about {
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #center-about {
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    }
-
-    #times>div {
-        width: 100%;
-        clear: both;
-        height: 150px;
-        padding: 0;
-    }
-
-    hr {
-        display: none;
-    } */
     /*mind*/
-    #image-table-small {
+    #mind-smallscreen {
         display: none;
+    }
+
+    #image-table {
+        visibility: visible;
     }
 
 }
 
 /* for medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
+
+    /* mind */
     #image-table {
         display: none;
+        /*visibility: hidden;*/
     }
 
-    #image-table-small {
-        width: 100%;
-        height: 600px;
-        border-width: thick;
-        line-height: 40px;
-        list-style-position: inside;
-        padding: 20px;
-    }
+    /* #mind-smallscreen {
+        display: on;
+    } */
 
     /*soul*/
 
@@ -847,15 +879,11 @@ footer {
     /*mind page*/
 
     #image-table {
-        display: none;
+        visibility: hidden;
     }
 
-    #image-table-small {
-        width: 100%;
-        height: 600px;
-        border-width: thick;
-        line-height: 40px;
-        list-style-position: inside;
+    #mind-smallscreen {
+        visibility: visible;
     }
 
 

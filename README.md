@@ -18,6 +18,7 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
   - [CONTENTS](#contents)
   - [User Experience (UX)](#user-experience-ux)
     - [User Stories](#user-stories)
+      - [First Time Visitor Goals](#first-time-visitor-goals)
   - [Design](#design)
     - [Colour Scheme](#colour-scheme)
     - [Typography](#typography)
@@ -46,37 +47,29 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 
 ## User Experience (UX)
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/Bully-Book-Club#user-experience-ux)
-
 ### User Stories
 
-Add your user stories here. You want to include first time visitors and returning visitors here as a minimum. Think about each group, and the experience and journey you want them to have on your site. It really helps to think about this before you start coding, and will really help with creating your wireframes.
+#### First Time Visitor Goals
+
+- To quickly find information about meditative techniques that can improve mental well-being
+- To be encouraged to focus more on personal well-being by learning how simple it is to encorporate into everyday life
+- To be able to easily navigate between pages display different well-being techniques
 
 ## Design
 
-👩🏻‍💻 View an example of a completed design section [here](https://github.com/kera-cudmore/earth-day-hackathon-2022#Design)
-
 ### Colour Scheme
 
-Add all information about your colour scheme for your site here. You can explain why you choose the colours you did?
-
-I like to include a palette of the colour scheme here, my favourite site for creating a colour palette is [coolors](https://coolors.co/), but there are lots of other sites that also do the same thing, like [ColorSpace](https://mycolor.space/?hex=%23F5F5F5&sub=1), [Muzli Colors](https://colors.muz.li/), [Adobe Colour Wheel](https://color.adobe.com/create/color-wheel) and [Canva](https://www.canva.com/colors/color-palette-generator/) to name a few.
+We wanted to have a colour scheme that was not too bright and that had a calming feel upon visiting the site. So we chose pale blues, and plain black and white for accessibility and to reduce cognitive overload.
 
 ### Typography
 
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
+Google Fonts was used to import the chosen fonts for this site.
 
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+We chose Josefin sans for main headings and Ysabeau SC for everything else. We felt these were complimentary fonts, easy to read and in keeping with the peaceful vibe we wanted the website to have.
 
 ### Imagery
 
-Use this section to explain what sort of imagery you plan to use through your site.
+All imagery used showed peaceful environments, mostly of nature (ocean, forest scenes) to give the sense of tranquility. Pictures of people in a meditative state were also used ensuring people of a variety of demographics were represented so all users would feel at home on our website.
 
 ### Wireframes
 
@@ -88,89 +81,95 @@ Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://ww
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
+The website comprised of 5 pages, the index page, 3 informative pages, and a sign-up page.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+All pages are divided into 4 main sections, the navigation section, a banner displaying an image and the main heading, the information section (which is then divided further depending on the page), and the footer containing links to all social media pages. This remained consistant throughout the site for easy access and user experience. Across all pages it was ensured the banner did not occupy the entire length of the screen to encourage users to scroll down to read more.
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+A drop-down 'practices' tab was used in the navigation header which then displayed the 3 practices pages. This was chosen to reduce cognitive overload reducing the number of visible navigation tabs to the user.
+
+The index page is designed to draw users in by highlighting the need for the resources provided on the site and summarising the information available.
+
+The practices pages make use of engaging imagery, videos, and audio files to break up the text so it is less overwhelming for users and more visually stimulating.
+
+The sign-up page follows conventions users will be familiar with, and makes use of hover features on text boxes for easy navigation.
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+In future I would like to create a login option in order to create a user network so users can encourage eachother on their journey in improved mental well-being.
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
-
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
-
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
-
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+We have actively tried to ensure our website is accessible friendly as possible, we achieved this by:
+- Using semantic HTML
+- Ensuring sufficient colour contrast throughout the site and using easily readable fonts
+- Providing information for screen readers where icons were used in place of text, for example for our social media icons in the footer
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+HTML, CSS
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
-
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
-
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+Balsamiq - for wireframes
+Git - for version control
+Github - to save and store files 
+Google Fonts - to import all fonts
+Font Awesome - for the iconography
+Google Dev Tools - to troubleshoot and test features
+Pexels - to download copyright free images
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+The site is deployed using GitHub Pages. Visit the deployed site here. To deploy using GitHub pages:
+
+Login or Sign Up to GitHub.
+Open the project repository.
+Click on "Settings" on the navigation bar under the repository title.
+Click on "Pages" in the left hand navigation panel.
+Under "Source", choose which branch to deploy. This should be Main for newer repositories (older repositories may still use Master).
+Choose which folder to deploy from, usually "/root".
+Click "Save", then wait for it to be deployed. It can take some time for the page to be fully deployed.
+Your URL will be displayed above "Source".
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+To fork the repository:
+- Log in to Github
+- Go to the repository for this project 
+- Click the Fork button in the top right corner
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+To clone the repository:
+- Log in to GitHub
+- Go to the repository for this project
+- Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+- Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+- Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
-
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
+Please view ......... for the testing documentation.
   
 Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
 
 ## Credits
 
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
-
 ### Code Used
 
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
+The code was written by myself with some parts being taken from the Love Running project - for example the footer and the sign-up page.
 
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+The content for the site was created by myself, with the yoga video being embedded from Youtube, and through carrying out research into mindfulness techniques.
 
 ###  Media
 

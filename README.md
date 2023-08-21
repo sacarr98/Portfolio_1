@@ -74,6 +74,8 @@ All imagery used showed peaceful environments, mostly of nature (ocean, forest s
 ### Wireframes
 
 <img src="assets/images/index_wireframe.PNG" alt="Wire fame of index page" title="Index page">
+<img src="assets/images/content_wireframe.PNG" alt="Wire frame of content pages" title="Practices pages">
+<img src="assets/images/signupform_wireframe.PNG" alt="wire frame of sign-up page" title="Sign-up page">
 
 ## Features
 
@@ -169,22 +171,20 @@ The content for the site was created by myself, with the yoga video being embedd
 
 ###  Media
 
-- <a>Index page cover image</a>
-- <a>Index page first circle image</a>
-- <a>Index page second circle image</a>
-- <a>Index page third circle image</a>
+- <a href="https://www.pexels.com/photo/sea-water-forming-seafoams-4321194/">Index page cover image</a>
+- <a href="https://www.pexels.com/photo/woman-meditating-in-the-outdoors-2908175/">Index page first circle image</a>
+- <a href="https://www.pexels.com/photo/close-up-photo-of-yes-you-can-text-on-white-surface-7508024/">Index page second circle image</a>
+- <a href="https://www.pexels.com/photo/woman-practicing-yoga-3822906/">Index page third circle image</a>
 - <a>Mind page cover image</a>
 - <a href="https://www.pexels.com/photo/person-holding-black-pen-sketching-flower-820673/">Mind page doodling image</a>
 - <a href="https://www.pexels.com/photo/a-woman-sitting-on-a-rock-4909325/">Mind page meditation image</a>
 - <a href="https://www.pexels.com/photo/crop-unrecognizable-person-in-sandals-walking-on-asphalt-sidewalk-5967867/">Mind page walk image</a>
-- <a>Body page cover image</a>
-- <a>Body page yoga video</a>
-- <a>Soul page cover image</a>
-- <a>Soul page smoothie image</a>
-- <a>Sign-up page cover image</a>
-
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+- <a href="https://www.pexels.com/photo/women-in-activewear-doing-yoga-3822672/">Body page cover image</a>
+- <a href="https://www.youtube.com/watch?v=j7rKKpwdXNE&ab_channel=YogaWithAdriene">Body page yoga video</a>
+- <a href="https://www.pexels.com/photo/fresh-lemons-and-mint-sprigs-above-zero-waste-bag-7195133/">Soul page cover image</a>
+- <a href="https://www.pexels.com/photo/clear-glass-bottle-filled-with-broccoli-shake-1346347/">Soul page smoothie image</a>
+- <a href="https://www.pexels.com/photo/woman-practicing-yoga-6787218/">Sign-up page cover image</a>
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+Thanks to the tutors at Code Institute for always being on hand when I needed some help with my code, and to my mentor for their guidence and advice.

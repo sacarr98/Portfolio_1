@@ -73,11 +73,7 @@ All imagery used showed peaceful environments, mostly of nature (ocean, forest s
 
 ### Wireframes
 
-Add the images or links for your wireframes here.
-
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
-
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
+<img src="assets/images/index_wireframe.PNG" alt="Wire fame of index page" title="Index page">
 
 ## Features
 
@@ -172,6 +168,20 @@ The code was written by myself with some parts being taken from the Love Running
 The content for the site was created by myself, with the yoga video being embedded from Youtube, and through carrying out research into mindfulness techniques.
 
 ###  Media
+
+- <a>Index page cover image</a>
+- <a>Index page first circle image</a>
+- <a>Index page second circle image</a>
+- <a>Index page third circle image</a>
+- <a>Mind page cover image</a>
+- <a href="https://www.pexels.com/photo/person-holding-black-pen-sketching-flower-820673/">Mind page doodling image</a>
+- <a href="https://www.pexels.com/photo/a-woman-sitting-on-a-rock-4909325/">Mind page meditation image</a>
+- <a href="https://www.pexels.com/photo/crop-unrecognizable-person-in-sandals-walking-on-asphalt-sidewalk-5967867/">Mind page walk image</a>
+- <a>Body page cover image</a>
+- <a>Body page yoga video</a>
+- <a>Soul page cover image</a>
+- <a>Soul page smoothie image</a>
+- <a>Sign-up page cover image</a>
 
 If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
   

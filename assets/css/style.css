@@ -418,12 +418,12 @@ footer {
 }
 
 #yoga-routine {
+    width: 100%;
     padding-top: 30px;
 }
 
 .yoga-video {
     text-align: center;
-
 }
 
 /* mind page */
@@ -543,7 +543,8 @@ footer {
 }
 
 #doodles-small {
-    font-size: 125%;
+    font-size: 140%;
+    line-height: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -559,14 +560,15 @@ footer {
 }
 
 .doodles-text {
-    margin-left: 20px;
-    margin-top: 100px;
-    width: 100%;
+    margin-left: 30px;
+    margin-top: 60px;
+    width: 80%;
     list-style-position: inside;
 }
 
 #meditation-small {
-    font-size: 125%;
+    font-size: 140%;
+    line-height: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -582,13 +584,14 @@ footer {
 }
 
 .meditation-text {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 60px;
-    width: 100%;
+    width: 80%;
 }
 
 #walk-small {
-    font-size: 125%;
+    font-size: 140%;
+    line-height: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
@@ -604,9 +607,9 @@ footer {
 }
 
 .walk-text {
-    margin-left: 10px;
+    margin-left: 30px;
     margin-top: 60px;
-    width: 100%;
+    width: 80%;
     list-style-position: inside;
 }
 
@@ -675,17 +678,20 @@ footer {
 
 /* media queries */
 /* for larger to medium screens size from 1200px wide and down */
-@media screen and (max-width: 1200px) and (min-width: 950px) {
+@media screen and (max-width: 1200px) {
 
     /*mind*/
-    #mind-smallscreen {
-        display: none;
-    }
 
     #image-table {
         visibility: visible;
     }
 
+}
+
+@media screen and (min-width: 950px) {
+    #mind-smallscreen {
+        visibility: hidden;
+    }
 }
 
 /* for medium screen sizes from 950px wide and down */
@@ -701,7 +707,6 @@ footer {
     }
 
     #section1 {
-        font-size: 125%;
         margin-left: 10px;
         width: 90%;
         margin-top: 25px;
@@ -787,35 +792,50 @@ footer {
     /* mind */
     #image-table {
         display: none;
-        /*visibility: hidden;*/
     }
 
-    /* #mind-smallscreen {
-        display: on;
-    } */
+    /*body page*/
+
+    #cover-image-body {
+        background-size: 100%;
+    }
+
+    .equipment {
+        width: 90%;
+    }
+
+    .positions {
+        width: 90%;
+        margin-left: 30px;
+        margin-right: auto;
+        float: left;
+    }
 
     /*soul*/
 
     #recipe-instruction {
-        width: 100%;
+        width: 90%;
         font-size: 150%;
         list-style-position: inside;
+        margin-right: 10px;
     }
 
     .ingredients {
-        width: 100%;
+        width: 90%;
         float: left;
         line-height: 40px;
         clear: both;
         margin-bottom: 30px;
+        margin-right: 10px;
     }
 
 
     .steps {
-        width: 100%;
+        width: 90%;
         float: left;
         line-height: 40px;
         clear: both;
+        margin-right: 10px;
     }
 
     /*recipe image */
@@ -834,12 +854,31 @@ footer {
 
     }
 
+    /*subscribe*/
+
+    .form-section {
+        background-size: 175%;
+    }
+
 }
 
 /*For small screen sizes 800px and down */
 @media screen and (max-width: 800px) {
 
     /*home page*/
+
+    #logo {
+        font-size: 400%;
+    }
+
+    #cover-image {
+        height: 200px;
+    }
+
+    #banner-outer {
+        height: 220px;
+    }
+
     #banner-outer {
         font-size: 75%;
     }
@@ -852,21 +891,22 @@ footer {
         font-size: 100%;
         margin-left: 10px;
         width: 90%;
-        margin-top: 25px;
+        margin-top: 5px;
+        height: 300px;
     }
 
     #section1-image {
         width: 150px;
         height: 150px;
         margin-left: 45px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #circle-container1 {
         width: 160px;
         height: 160px;
         margin-left: 40px;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     .peace {
@@ -878,21 +918,22 @@ footer {
         font-size: 100%;
         margin-left: 10px;
         width: 90%;
-        margin-top: 25px;
+        margin-top: 5px;
+        height: 300px;
     }
 
     #section2-image {
         width: 150px;
         height: 150px;
         margin-left: 45px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #circle-container2 {
         width: 160px;
         height: 160px;
         margin-left: 40px;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     .reminders {
@@ -904,23 +945,24 @@ footer {
         font-size: 100%;
         margin-left: 10px;
         width: 90%;
-        margin-top: 25px;
+        margin-top: 5px;
         margin-bottom: 30px;
         padding-bottom: 30px;
+        height: 300px;
     }
 
     #section3-image {
         width: 150px;
         height: 150px;
         margin-left: 45px;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 
     #circle-container3 {
         width: 160px;
         height: 160px;
         margin-left: 40px;
-        margin-top: 25px;
+        margin-top: 15px;
     }
 
     .practices {
@@ -934,38 +976,61 @@ footer {
 
     /*body page*/
 
+    #cover-image-body {
+        height: 200px;
+    }
+
+    #banner-outer-body {
+        height: 220px;
+    }
+
+    #logo-body {
+        font-size: 400%;
+    }
+
+    #cover-image-body {
+        background-size: 200%;
+    }
+
+    #yoga-route {
+        width: 90%;
+    }
+
     .equipment {
-        padding-top: 30px;
-        width: 100%;
-        float: left;
-        margin-left: 30px;
-        font-size: 150%;
-        line-height: 40px;
-        list-style-position: inside;
+        width: 80%;
+        margin-right: 30px;
     }
 
     .positions {
-        padding-top: 30px;
-        width: 100%;
-        float: left;
+        width: 80%;
         margin-left: 30px;
-        font-size: 150%;
-        line-height: 40px;
-        list-style-position: inside;
-    }
-
-    #yoga-routine {
-        padding-top: 30px;
+        margin-right: auto;
+        float: left;
     }
 
     .yoga-video {
-        text-align: center;
+        width: 90%;
+    }
+
+    .video {
+        width: 80%;
+        height: 80%;
 
     }
 
-
-
     /*mind page*/
+
+    #cover-image-mind {
+        height: 200px;
+    }
+
+    #banner-outer-mind {
+        height: 220px;
+    }
+
+    #logo-mind {
+        font-size: 400%;
+    }
 
     #image-table {
         visibility: hidden;
@@ -975,17 +1040,45 @@ footer {
         visibility: visible;
     }
 
+    #mindfullness-description {
+        font-size: 125%;
+        width: 90%;
+        height: 150px;
+    }
 
     /*soul*/
 
+    #logo-soul {
+        font-size: 400%
+    }
+
+    #banner-outer-soul {
+        height: 220px;
+    }
+
+    #cover-image-soul {
+        background-size: 200%;
+        height: 200px;
+    }
+
+    /* recipe */
+
+    #recipe {
+        padding: 10px;
+        margin: 10px;
+        width: 90%;
+        height: 100%;
+    }
+
+
     #recipe-instruction {
-        width: 100%;
+        width: 95%;
         font-size: 150%;
         list-style-position: inside;
     }
 
     .ingredients {
-        width: 100%;
+        width: 95%;
         float: left;
         line-height: 40px;
         clear: both;
@@ -994,7 +1087,7 @@ footer {
 
 
     .steps {
-        width: 100%;
+        width: 95%;
         float: left;
         line-height: 40px;
         clear: both;
@@ -1003,17 +1096,13 @@ footer {
     /*recipe image */
 
     #recipe-image {
-        width: 100%;
-        height: 100%;
-        position: relative;
-        padding-top: 10px;
-        padding-left: 10px;
+        display: none;
     }
 
-    #recipe-image-bg {
-        background: url('../images/pexels-alisha-mishra-1346347.jpg') no-repeat center center;
-        background-size: 75%;
+    /*subscribe*/
 
+    .form-section {
+        background-size: 350%;
     }
 
 }

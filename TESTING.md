@@ -124,8 +124,15 @@ Each device tested the site using the following browsers:
 
 ### Known Bugs
 
-No known bugs.
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | The initial banner text was clear on some pages but difficult to read against the background on others | By adding a shadow the text had better readability  |
+| 2 | When adding media queries to my index page the footer was sitting on top of the text content | I realised this was due to the text content being larger than the div container, by resizing the div container I solved this |
+| 3 | Initially when moving through pages on the navigation bar the underline did not move to the relvent page | By ensuring all pages were set to "active" I solved this issue. |
+
 
 ### Solved Bugs
 
-No known bugs.
+| No | Bug | |
+| :--- | :--- | :--- |
+| 1 | On the soul page the footer seems to jump about, despite it being copied exactly from previous pages, further investigation is needed to solve this issue.| |

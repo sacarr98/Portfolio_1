@@ -1,14 +1,12 @@
 # PORTFOLIO 1 - "Breathe"
 
-👩🏻‍💻 View an example of this section [here](https://github.com/kera-cudmore/Bully-Book-Club#bully-book-club-website)
+Breathe is a site providing insights and guidence on how to improve your mental well-being. It offers three pages of information with walk-throughs of various meditative techniques, a video link to a yoga tutorial, and a recipe to feed the soul.
 
-Add a Blurb about the site here, what does it do, why did you build it?
+The site has a large target audience as good mental well-being should be for everyone, as such the site is simple and easy to use making it accessible for all.
 
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
+Below you can see the site on different screen sizes.
 
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
+The live site can be found [here]()
 
 ---
 
@@ -87,11 +85,15 @@ All pages are divided into 4 main sections, the navigation section, a banner dis
 
 A drop-down 'practices' tab was used in the navigation header which then displayed the 3 practices pages. This was chosen to reduce cognitive overload reducing the number of visible navigation tabs to the user.
 
+<img src="assets/images/dropdown_capture.PNG" alt="screenshot of drop-down menu" title="Drop-down menu">
+
 The index page is designed to draw users in by highlighting the need for the resources provided on the site and summarising the information available.
 
 The practices pages make use of engaging imagery, videos, and audio files to break up the text so it is less overwhelming for users and more visually stimulating.
 
-The sign-up page follows conventions users will be familiar with, and makes use of hover features on text boxes for easy navigation.
+The sign-up page follows conventions users will be familiar with, and makes use of hover features on text boxes for easy navigation, with pop-up messages when a section needs to be filled.
+
+<img src="assets/images/subscribe_capture.PNG" alt="screenshot of pop-up messages" title="Sign-up page message">
 
 ### Future Implementations
 
@@ -155,9 +157,7 @@ To clone the repository:
 
 ## Testing
 
-Please view ......... for the testing documentation.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+Testing documentation can be found [here](TESTING.md)
 
 ## Credits
 

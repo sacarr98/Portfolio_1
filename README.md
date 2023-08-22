@@ -4,9 +4,10 @@ Breathe is a site providing insights and guidence on how to improve your mental 
 
 The site has a large target audience as good mental well-being should be for everyone, as such the site is simple and easy to use making it accessible for all.
 
-Below you can see the site on different screen sizes.
+Below you can see the site on different screen sizes. Taken from [Am I responsive](https://amiresponsive.co.uk/).
+<img src="assets/images/deployedsite.PNG" alt="Breathe website on different screen sizes" title="Breathe website on different screen sizes>
 
-The live site can be found [here]()
+The live site can be found [here](https://sacarr98.github.io/Portfolio_1/)
 
 ---
 

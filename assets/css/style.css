@@ -1105,10 +1105,23 @@ footer {
     }
 
     /*navigation links*/
+
     #menu {
         line-height: 75px;
         font-size: 80%;
         letter-spacing: 2px;
     }
 
+}
+
+/*For small screen sizes 330px and down */
+@media screen and (max-width: 330px) {
+
+    /*navigation links*/
+
+    #menu {
+        line-height: 75px;
+        font-size: 60%;
+        letter-spacing: 2px;
+    }
 }

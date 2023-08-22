@@ -16,6 +16,10 @@ Visit the deployed site: [Breathe](https://kera-cudmore.github.io/TheQuizArms/)
     - [Results](#results)
   - [MANUAL TESTING](#manual-testing)
     - [Testing User Stories](#testing-user-stories)
+    - [Full Testing](#full-testing)
+  - [BUGS](#bugs)
+    - [Known Bugs](#known-bugs)
+    - [Solved Bugs](#solved-bugs)
 
 Testing was ongoing throughout the entire process. Chrome developer tools was used whilst building to find and troubleshoot any issues.
 
@@ -71,12 +75,57 @@ All pages achieved 100 for SEO, a minimum of 92 for best practices, and 93 for a
 
 |  Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
+| I want to be able to track my progress. | Going forward I would like to add an interactive tracking tab that monitors users activities and their progress. |
 
 `Frequent Visitors`
 
 | Goals | How are they achieved? |
 | :--- | :--- |
-| I want to be able to adjust the difficulty level to keep improving my knowledge. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-| I want to be able to log my high scores to see how I am performing. | Users of the site are able to log their high scores to the high scores page. The top ten results will be displayed. |
+| I want to be able to engage with a community also working on their mental wellbeing | I would like to add a login community element so users can meet like minded people and encourage them on their journeys.
 
+### Full Testing
+
+Full testing was performed on the following devices:
+
+* Laptop:
+  * Microsoft surface laptop
+* Mobile Devices:
+  * iPhone 13 mini
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| `Navbar` |
+|  |  |  |  |  |
+| Home Page Link | When clicked the user will be redirected to the home page.| Clicked link | Redirected to the home page. | Pass |
+| Practices Link | When hovered over a drop-down menu appears. | Hovered | Menu appears. | Pass |
+| Mind Link | When clicked the user will be redirected to the mind page. | Clicked link | Redirected to the mind page | Pass |
+| Body Link | When clicked the user will be redirected to the body page. | Clicked link | Redirected to the body page | Pass |
+| Soul Link | When clicked the user will be redirected to the soul page. | Clicked link | Redirected to the soul page | Pass |
+| Subscribe Link | When clicked the user will be redirected to the subscribe page. | Clicked link | Redirected to the subscribe page | Pass |
+| `Footer` |
+|  |  |  |  |  |
+| Social media links | When clicked the user will be redirected to relevent social media page. | Clicked all logos | Redirected to the correct pages. | Pass |
+| `Subscribe Page` |
+| | | | | | |
+| First and last name input - empty | The username is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
+| Email input | The email input should include an email address  | Entered plain text | Tooltip tells user to use an email address here | Pass |
+| Email input - empty | The email is a required field, so should not submit with no value | Tried to submit form with no value entered | Tooltip lets user know this value is required | Pass |
+| Join button | Should redirect user to the home page | Created new user and submitted form | Redirected to the home page | Pass |
+
+ - - -
+
+## BUGS
+
+### Known Bugs
+
+No known bugs.
+
+### Solved Bugs
+
+No known bugs.

@@ -179,6 +179,7 @@ The content for the site was created by myself, with the yoga video being embedd
 - <a>Mind page cover image</a>
 - <a href="https://www.pexels.com/photo/person-holding-black-pen-sketching-flower-820673/">Mind page doodling image</a>
 - <a href="https://www.pexels.com/photo/a-woman-sitting-on-a-rock-4909325/">Mind page meditation image</a>
+- <a href="https://mindfulnessexercises.com/downloads/10-minute-meditation/">Mind page guided meditation audio</a>
 - <a href="https://www.pexels.com/photo/crop-unrecognizable-person-in-sandals-walking-on-asphalt-sidewalk-5967867/">Mind page walk image</a>
 - <a href="https://www.pexels.com/photo/women-in-activewear-doing-yoga-3822672/">Body page cover image</a>
 - <a href="https://www.youtube.com/watch?v=j7rKKpwdXNE&ab_channel=YogaWithAdriene">Body page yoga video</a>
